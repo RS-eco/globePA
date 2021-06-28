@@ -10,32 +10,31 @@ Protected areas (PAs) are one of the most effective ways to conserve
 biodiversity and have been steadily growing in number and overall areal
 extent. However, PAs are often implemented without consideration of
 already existing PAs, which is likely to cause an over-representation of
-certain biophysical conditions within them. Here, we assess the
-representativeness of the current PA network with regard to the world’s
-biophysical conditions, highlighting which conditions are currently
-under-protected and where these conditions are located. For this, we
-overlayed terrestrial and marine PAs with information on biophysical
-conditions and then quantified the percentage coverage of biophysical
-conditions by the PA network. We found that for the terrestrial realm,
-high temperature and low precipitation as well as medium and very high
-elevation conditions were underrepresented, while for the marine realm,
-low and medium sea surface temperature (SST), medium and high sea
+certain biophysical conditions. Here, we assess the representativeness
+of the current PA network with regard to the world’s biophysical
+conditions, highlighting which conditions are currently under-protected
+and where these conditions are located. For this, we overlayed
+terrestrial and marine PAs with information on biophysical conditions
+and then quantified the percentage of area covered by the PA network.
+Considering one variable at a time, we found that for the terrestrial
+realm, high temperature, low precipitation as well as medium and very
+high elevation conditions were underrepresented. While for the marine
+realm, low and medium sea surface temperature (SST), medium and high sea
 surface salinity (SSS) conditions, as well as the deep sea were
-underrepresented. Overall, the protection of terrestrial conditions was
-evenly distributed for elevation, while for the marine realm SST was
-evenly distributed. Both cold and very dry terrestrial environments had
-mostly low protection, which was also the case for low SST as well as
-low and medium SSS conditions across most depths for marine
-environments. Low-protected conditions mostly occurred in the Sahara and
-the Arabian Peninsula for the terrestrial realm and along the Tropic of
-Capricorn and towards the poles for the marine realm. While biodiversity
-measures are of prime importance for PA planning strategies,
-highlighting potential biophysical gaps in the current PA network adds a
-frequently overlooked perspective, which may weaken the overall
-potential of PAs to conserve biodiversity. Thus, our study may provide
-additional useful insights for researchers, conservation practitioners
-and policy makers in order to improve prioritization efforts for a more
-comprehensive global PA network.
+underrepresented. Overall, the protection was evenly distributed for
+elevation across the terrestrial realm and SST across the marine realm.
+Considering two variables at a time, both cold and very dry terrestrial
+environments had mostly low protection, which was also the case for low
+SST as well as low and medium SSS conditions across most depths for
+marine environments. Low-protected conditions mostly occurred in the
+Sahara and the Arabian Peninsula for the terrestrial realm and along the
+Tropic of Capricorn and towards the poles for the marine realm. While
+biodiversity measures are of prime importance for the design of PA
+networks, highlighting biophysical gaps in current PAs adds a frequently
+overlooked perspective, which may weaken the potential of PAs to
+conserve biodiversity. Thus, our study may provide useful insights for
+researchers, practitioners and policy makers in order to establish a
+more comprehensive global PA network.
 
 **Keywords:** temperature, precipitation, salinity, elevation,
 bathymetry, marine, terrestrial, abiotic conditions
@@ -49,15 +48,13 @@ areas (PAs) are the most effective tool for in situ conservation (Chape
 et al. 2005) and are crucial for reducing habitat loss (Geldmann et
 al. 2013), protecting endangered species (Pacifici et al. 2020),
 safeguarding biodiversity and conserving the provisioning of ecosystem
-services (Stolton & Dudley 2010).
-
-As a result, over the last 50 years, the global PA network has been
-steadily growing in number and areal extent, which confirms the
-recognition by governments to conserve the planet’s natural ecosystems.
-The Convention on Biological Diversity (CBD) has set the target (Aichi’s
-Biodiversity Target 11) to protect at least 17% of terrestrial and
-inland water and 10% of coastal and marine areas by 2020 in order to
-improve the status of biodiversity (CBD 2011,
+services (Stolton & Dudley 2010). As a result, over the last 50 years,
+the global PA network has been steadily growing in number and areal
+extent, which confirms the recognition by governments to conserve the
+planet’s natural ecosystems. The Convention on Biological Diversity
+(CBD) has set the target (Aichi’s Biodiversity Target 11) to protect at
+least 17% of terrestrial and inland water and 10% of coastal and marine
+areas by 2020 in order to improve the status of biodiversity (CBD 2011,
 <http://www.cbd.int/sp/targets>) and as of February 2021, around 15.4%
 of terrestrial areas and inland waters, 17.8% of coastal and marine
 areas within national jurisdiction and 1.2% of the global ocean (areas
@@ -151,7 +148,7 @@ categories (IUCN categories Ia, Ib and II = I-II, IUCN categories III
 and IV = III-IV, IUCN categories V and VI = V-VI, IUCN categories not
 reported, not applicable and not assigned = Non-designated).
 
-The IUCN categories group PAs according to their management objective:
+The IUCN categories group PAs according to their management objectives:
 IUCN categories Ia, Ib and II include Strict Nature Reserves, Wilderness
 Areas and National Parks and focus on the protection of intact
 ecosystems (Dudley 2008), while IUCN categories III and IV include
@@ -254,15 +251,18 @@ distribution (by comparing it with the expected value) using a
 Chi-Square goodness of fit test. The Chi-Square value denotes the sum of
 error values, with a higher value indicating a larger deviance between
 the observed and expected values and so implying a lower evenness in
-distribution. Given that using bins observed with equal frequency puts a
-stronger emphasis on a small range of conditions (i.e. SSS between 34
-and 35.4 psu), we also assessed the protection coverage across each
-variable using equally-spaced bins (1°, 100 mm, 100 m and 1 PSU for
+distribution.
+
+Given that using bins observed with equal frequency puts a stronger
+emphasis on a small range of conditions (i.e. SSS between 34 and 35.4
+psu), we also assessed the protection coverage across each variable
+using equally-spaced bins (1°, 100 mm, 100 m and 1 PSU for
 temperature/SST, precipitation, elevation/bathymetry and SSS,
 respectively; Appendix S4). While this puts the focus on discrete
 biophysical conditions, it specifically highlights conditions that might
 be rare on a global level, and thus is not really meaningful for
 assessing the biophysical representativeness of the global PA network.
+
 To look at the interaction in protection across multiple variables, we
 performed the same procedure for each pairwise combination of all
 terrestrial and all marine variables separately.
@@ -272,16 +272,16 @@ respective pairwise combinations, which indicates how well the
 underlying environmental condition of a given location is protected
 globally, we then combined the binned data with the protection coverage
 of each individual bin and each pairwise combination (Fig. 1e). In
-addition, we summarized the derived maps into the area covered by the
-each zoogeographic and marine realm (Appendix S3).
+addition, we summarized the derived maps into the area covered by each
+zoogeographic and marine realm (Appendix S3).
 
 The entire analysis was performed in R version 4.0 (R Core Team, 2020),
 but required among others the use of R packages specifically designed
 for handling large spatial data, such as sf (Pebesma, 2018), fasterize
 (Ross, 2020), exactextractr (Baston, 2020) and terra (Hijmans, 2020), as
-well as the use of high-performance computers. The full code of the
-performed analysis and to recreate the shown figures is publicly
-available from: <https://github.com/RS-eco/globePA/>.
+well as the use of high-performance computers. The full code to run the
+performed analysis and recreate the shown figures is publicly available
+from: <https://github.com/RS-eco/globePA/>.
 
 ![](figures/Figure1.png)
 
@@ -330,7 +330,7 @@ marine realm, SSS and bathymetry showed a significant difference (p ≤
 0.05) in the goodness of fit between the expected and observed
 distribution, but here the contribution of the different IUCN categories
 varied strongly across conditions, at least for SST and SSS (Fig. 2
-d-f). The variance and annual range in SST was under-protected towards
+d-f). The variance and annual range in SST were under-protected towards
 distinct lower and upper conditions, while almost all conditions in the
 annual range and annual variance in SSS were under-protected. However,
 only annual variance in SST differed significantly from the expected
@@ -366,18 +366,18 @@ Appendix S4 for a similar figure based on equally-spaced bins.
 ### Interaction coverage
 
 Looking at the pairwise interaction of variables in the terrestrial
-realm, we found that for temperature and precipitation mostly conditions
-at the lower temperature and upper precipitation limit had a high
-protection coverage, while very high temperature and very low
-precipitation conditions as well as low temperature and low
-precipitation conditions were only marginally protected. In addition,
-there were certain conditions with very low temperatures and low and
-high precipitation which were not protected at all (Fig. 3 a). For the
-interaction of temperature and elevation, areas with low temperature and
-low elevation were very strongly protected, while mostly very high
-temperature and high elevation conditions were only marginally protected
-(Fig. 3 b). For precipitation and elevation again the majority of the
-upper precipitation limits had a high protection coverage across all
+realm, we found that for temperature and precipitation primarily
+conditions at the lower temperature and upper precipitation limit had a
+high protection coverage, whilst conditions that were either at the
+upper temperature limit or at the lower precipitation limit tended to be
+only marginally protected. In addition, there were discrete conditions
+with very low temperatures and low and high precipitation which were not
+protected at all (Fig. 3 a). For the interaction of temperature and
+elevation, areas with low temperature and low elevation were very
+strongly protected, while mostly very high temperature and high
+elevation conditions were only marginally protected (Fig. 3 b). For
+precipitation and elevation again the majority of the upper
+precipitation limits had a high protection coverage across all
 elevational bands, while conditions with low precipitation and very high
 elevation were either marginally protected or not protected at all (Fig.
 3 c). Overall, the combination of temperature and elevation was best
@@ -385,13 +385,12 @@ protected (largest area with high protection coverage), while the
 combination of temperature and precipitation had the largest area with a
 low protection (Fig 3 d).
 
-For the marine realm, the patterns were less clear. For the combination
-of SST and SSS, well-protected conditions were mostly present at high
-SSS conditions across various SST conditions, while conditions that were
-only marginally or not at all protected occurred across most SSS and SST
-conditions (Fig. 3 e). For bathymetry and SST (Fig. 3 f) and for
-bathymetry and SSS (Fig. 3 g), very well-protected conditions mostly
-occurred at very shallow depths (0 – 46 m) across all SSS and SST
+For the marine realm, the patterns were less clear. Most SSS and SST
+conditions were only marginally or not at all protected, with a few
+well-protected conditions, which occurred most frequently at high SSS
+across various SST conditions (Fig. 3 e). For bathymetry and SST (Fig. 3
+f) and for bathymetry and SSS (Fig. 3 g), very well-protected conditions
+mostly occurred at very shallow depths (0 – 46 m) across all SSS and SST
 conditions (Fig. 3 f, g), in depths deeper than 5755 m with very low
 (around 0°C) SST conditions (Fig. 3 f) and at SSS conditions of 32 –
 32.5 and 35.4 – 35.7 psu across most depths (Fig. 3 g). Low-protected
@@ -434,6 +433,7 @@ Indonesia and some parts of China (mostly the Himalayan region)
 experienced precipitation conditions that had a high protection (Fig. 4
 b). 89 % of the terrestrial realm had elevational bands that were
 protected by 10 – 16 % and 9.9 % that were protected by 16 – 25 %.
+
 Elevational conditions with a high protection were mostly located in
 Greenland and China (Fig. 4 c). Looking at the spatial overlap of the
 different terrestrial variables, we found that unique combinations of
@@ -529,7 +529,7 @@ Our results showed that the terrestrial protected area (TPA) network
 provided a wide coverage of the current biophysical conditions present
 across the terrestrial realm. However, for the terrestrial realm low to
 intermediate and very high temperature as well as low and medium
-precipitation conditions lacked protection (Fig. 2 a, b ). These
+precipitation conditions lacked protection (Fig. 2 a, b). These
 conditions represent the majority of temperate regions, so are quite
 common, while rare biophysical conditions were usually much better
 protected (Appendix S4). This bias might reflect historical human
@@ -537,18 +537,20 @@ settlement preferences, as TPAs are typically biased towards isolated
 locations with low population density and low suitability for
 agriculture and mostly driven by opportunistic forces rather than
 preferential and representative motivations (Joppa & Pfaff 2009; Baldi
-et al. 2017). We further found that low and very high elevational levels
-were lower in protection than expected, although overall elevation was
-evenly represented by the TPA network (Fig. 2 c). This is in line with
-results by Joppa & Pfaff (2009) who found that for the United States
-areas between 1000 – 4000 m in elevation are disproportionately
-protected. Contrary, our results did not show a bias in TPAs towards
-high mountain systems, as has been shown previously (Elsen et al. 2018).
-This is due to the fact that we did consider elevational levels with
-equal frequency rather than discrete bins (see Appendix S4 for
-comparison). While the former leads to a larger number of bins with low
-or medium elevations, as these are more common, the former may also be
-more meaningful when assessing the representation of global biophysical
+et al. 2017).
+
+We further found that low and very high elevational levels were lower in
+protection than expected, although overall elevation was evenly
+represented by the TPA network (Fig. 2 c). This is in line with results
+by Joppa & Pfaff (2009) who found that for the United States areas
+between 1000 – 4000 m in elevation are disproportionately protected.
+Contrary, our results did not show a bias in TPAs towards high mountain
+systems, as has been shown previously (Elsen et al. 2018). This is due
+to the fact that we did consider elevational levels with equal frequency
+rather than discrete bins (see Appendix S4 for comparison). While our
+approach (equal frequency bins) leads to a larger number of bins with
+low or medium elevations, as these are more common, it may also be more
+meaningful when assessing the representation of global biophysical
 conditions by PAs. Another confounding factor, especially with regards
 to elevation (You et al. 2018), is that some countries have stopped
 reporting their PAs to UNEP-WCMC, which are thus not included in the
@@ -598,10 +600,13 @@ at the same time (Fig 3. a) had a high protection coverage, which was
 the same case for low temperature and high precipitation conditions
 across all elevational levels (Fig. 3 b, c). On the contrary, dry and
 hot as well as hot conditions across all elevations had a low protection
-coverage (Fig. 3 a - c). This is in line with a study by Elsen et
-al. (2020), who found that there is a bias of protection towards rarer
-portions of climate space, particularly colder and wetter environments,
-although they used equally-spaced conditions (Appendix S4).
+coverage (Fig. 3 a - c). This is in line with a study by Sayre et
+al. (2020) who found that cold and moist ecosystems were well
+represented, while warm and dry environments weren’t, as well as a study
+by Elsen et al. (2020), who found that there is a bias of protection
+towards rarer portions of climate space, particularly colder and wetter
+environments, although they used equally-spaced conditions (see Appendix
+S4 for comparison).
 
 For the marine realm, well-protected conditions were mostly present at
 the upper limits of SSS across almost all SST conditions (Fig. 3e) and
@@ -634,7 +639,7 @@ single PA, the NE Greenland National Park, exhibited unique temperature
 conditions, which had a high protection coverage. The northern part of
 South America had a high protection coverage with regard to
 precipitation conditions. However, this is mostly due to a large number
-of PAs with a low IUCN protection status (Baldi et al. 2019).
+of PAs with a low IUCN protection status (V-VI, Baldi et al. 2019).
 Low-protected conditions in the terrestrial realm mostly occurred in
 parts of China (Fig. 4 d), as well as in the Sahara and the Arabian
 Peninsula (Fig. 4 d). While protection of these regions is unlikely to
@@ -661,17 +666,6 @@ result depends on the overall spatial extent considered and looking at
 the local representativeness of Australian MPAs Roberts et al. (2019)
 found that Australian MPAs over-represent warm, offshore waters and
 under-represent temperate environments.
-
-The lower protection coverage across the marine realm is unsurprising,
-given that overall 15.4% of the Earth’s land surface and only 7.6% of
-the world’s oceans are registered with a certain status of protection
-(UNEP-WCMC, IUCN & NGS 2021). Although recently we have seen the
-establishment of a number of large MPAs, given that 67% of our planet is
-covered by the Ocean (Reaka-Kudla 1997), the coverage by MPAs is still
-very low. This is also reflected in the difference of the protection
-coverage target (17 vs. 10%) under the Aichi Biodiversity Target 11 (CBD
-2011), which is cause for huge concern, as anthropogenic impacts on the
-world’s oceans are continuously increasing (Halpern et al. 2015).
 
 ### Challenges and potential caveats
 
@@ -704,8 +698,8 @@ phylogenetic (Rosauer et al. 2017), functional (Guilhaumon et al. 2014),
 and geo-diversity (Tukiainen et al. 2017), and the coverage of climatic
 niches (Hanson et al. 2020), as well as ecosystem functions (Harvey et
 al. 2017) and services (Eastwood et al. 2016) are additional factors to
-be considered. However, currently neither the world’s most diverse, nor
-the most productive ecosystems are the most protected (Lindegren et
+be considered. Nevertheless, currently neither the world’s most diverse,
+nor the most productive ecosystems are the most protected (Lindegren et
 al. 2018; Maxwell et al. 2020), although on the level of ecoregions the
 global PA network has been shown to be strongly related to biodiversity
 measures (Loucks et al. 2008).
@@ -718,18 +712,17 @@ conditions will disappear, while new non-analog climates might appear
 (Hoffmann et al. 2019; Holsinger et al. 2019; Elsen et al. 2020).
 
 In this study, we further only look at the total protection coverage of
-an area that is protected by a certain condition and do not
-differentiate between large or small PAs, thus we do not consider
-connectivity among PAs or their respective biophysical conditions. While
-the number of PAs generally decreases with size (UNEP-WCMC, 2018),
-increasing PA coverage and size has been found to be a good strategy for
-improving multi-species connectivity (Santini et al. 2015). Given that
-connectivity among PAs will become even more important when species that
-are currently under protection shift their ranges in order to track
-changing climatic conditions (Littlefield et al. 2017), we also need to
-consider the size and connectivity of PAs as well as the protection
-retention of climatic conditions (Elsen et al. 2020) for the
-establishment of future PAs.
+an area in relation to a certain biophysical condition, i.e. a
+temperature of 15°C, for instance. Thus we do not consider if the cells
+that cover this condition are protected by one large or multiple small
+PAs, nor do we assess the extent of the cells covered or the
+connectivity of the covered cells Given that connectivity among PAs will
+become even more important when species that are currently under
+protection shift their ranges in order to track changing climatic
+conditions (Littlefield et al. 2017), we also need to consider the size
+and connectivity of PAs as well as the protection retention of future
+climatic conditions (Elsen et al. 2020) when assessing the
+representativeness of the global PA network.
 
 ### Concluding remarks
 
