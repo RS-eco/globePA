@@ -1,0 +1,11 @@
+extdata/bathy+biogeo13_protected_perc.nc filter=lfs diff=lfs merge=lfs -text
+extdata/bio12+elevation_protected_perc.nc filter=lfs diff=lfs merge=lfs -text
+extdata/bathy+biogeo08_protected_perc.nc filter=lfs diff=lfs merge=lfs -text
+extdata/bio01+elevation_protected_perc.nc filter=lfs diff=lfs merge=lfs -text
+extdata/bathy_protected_perc.nc filter=lfs diff=lfs merge=lfs -text
+extdata/bathy_30s_perc.nc filter=lfs diff=lfs merge=lfs -text
+extdata/elevation_protected_perc.nc filter=lfs diff=lfs merge=lfs -text
+extdata/biogeo16_30s_perc.nc filter=lfs diff=lfs merge=lfs -text
+extdata/bathy+biogeo13_protected_bins.nc filter=lfs diff=lfs merge=lfs -text
+extdata/elevation_1KMmn_GMTEDmn_perc.nc filter=lfs diff=lfs merge=lfs -text
+extdata/bio01+bio12_protected_perc.nc filter=lfs diff=lfs merge=lfs -text
